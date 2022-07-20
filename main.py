@@ -17,6 +17,9 @@ class SnapCookies:
                             "client_id": "web-calling-corp--prod"
                     }
                 )
+            ),
+            headers = (
+                self.headers
             )
         )
         
@@ -31,6 +34,9 @@ class SnapCookies:
                             "client_id": "web-calling-corp--prod"
                     }
                 )
+            ),
+            headers = (
+                self.headers
             )
         )
     
